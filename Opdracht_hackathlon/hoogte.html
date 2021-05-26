@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nox' kattenkwaad</title>
+    <link rel="stylesheet" type="text/css" href="hoogte.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <img src="banner.JPG" width="100%">
+        <h1>Nox' kattenkwaad</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Over mij</a></li>
+            <li><a href="hoogte.html" id="hoogte">Blijf op de hoogte</a></li>
+        </ul>
+
+    </header>
+
+    <main>
+        <article>
+            <h2>Blijf op de hoogte</h2>
+            <p class="tekst">Wil je alles als eerste weten over onze Nox?<br>
+                Schrijf je dan nu, via onderstaand formulier, in voor de nieuwsbrief: <br>'Het Kattenbelletje'<br></p>
+        </article>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <label>Naam:</label>
+            <input name="naam" id="naam" type="text"> <br>
+            <label>E-mail:</label>
+            <input name="email" id="email" type="email"><br>
+            <label>Woonplaats:</label>
+            <input name="woonplaats" id="plaats" type="text"> <br>
+            <label>postcode:</label>
+            <input name="postcode" id="code" type="text"> <br>
+            <label>Geboortedatum:</label>
+            <input name="geboortedatum" id="geboortedatum" type="date"> <br>
+            <label>Favoriet kattenras:</label><br>
+            <input name="kat huiskat" id="huiskat" type="checkbox"> Huiskat <br>
+            <input name="kat coon" id="coon" type="checkbox"> Maine Coon<br>
+            <input name="kat brits" id="brits" type="checkbox"> Britse korthaar<br>
+            <input name="kat ragdoll" id="ragdoll" type="checkbox"> Ragdoll<br>
+            <label name="kat anders" id="gek">Anders:</label> <input id="anders" type="text"> <br>
+            <label>Favoriete windrichting</label><br>
+            <input name="wind noord" id="noord" type="radio"> Noord<br>
+            <input name="wind oost" id="oost" type="radio"> Oost<br>
+            <input name="wind zuid" id="zuid" type="radio"> Zuid<br>
+            <input name="wind west" id="west" type="radio"> West <br>
+
+            <input id="submit" type="submit">
+            <input id="reset" type="reset">
+        </form>
+    </main>
+    <footer>
+        <p>
+            Deze webiste is gemaakt door Sanne Appelman
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

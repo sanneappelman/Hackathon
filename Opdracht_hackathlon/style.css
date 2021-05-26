@@ -1,0 +1,160 @@
+body {
+    background-color: #ffe7aa;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: #1d3557;
+    color:white;
+    margin:0;
+    padding:30px;
+    text-align: center;
+    font-size:60px;
+}
+
+ul {
+    list-style-type:none;
+    margin-top:0px;
+    padding:0;
+}
+
+li {
+    float:left;
+   
+}
+
+a {
+    display:block;
+    padding:20px 79px;
+    background-color: #1d3557;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+}
+
+li a:hover {
+    background-color:white;
+    color:#1d3557;
+}
+
+article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;;
+    margin:30px;
+    margin-top:50px;
+    background-color:#e9c46a;
+    padding-top:5px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.pagina{
+    margin-top:100px;
+    margin-bottom:0;
+}
+
+h2 {
+    margin-top:20px;
+    margin-bottom:50px;
+    text-align: center;
+    border: #1d3557 solid 10px;
+    padding:20px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+}
+
+.boom {
+    margin-top:50px;
+}
+
+.foto2 {
+    margin-bottom: 40px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    background-color: #1d3557;
+    color:white;
+    padding:20px;
+    margin:0;
+    text-align:center;
+}
+
+/** Media Queries **/
+
+@media (min-width:1024px){
+    body {
+        margin:30px 160px;
+    }
+    h1 {
+        font-size:40px;
+    }
+    a {
+        display:block;
+        padding:20px;
+        background-color: #1d3557;
+        color: white;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+    }
+    li {
+    width:250px;   
+    text-align: center;
+    
+    }
+
+    #hoogte {
+        width:311px;
+    }
+
+    .boom {
+        width:100%;
+    }
+
+    .raam {
+        width:100%;
+    }
+
+    section {
+        font-size: 17px;
+    }
+
+    .pagina {
+        margin-top:100px;
+        margin-bottom:0;
+    }
+
+    .grid-container { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        }
+
+    .titel {
+        grid-column:1/3;
+        margin-top:10px;
+    }
+    
+    .raam {
+        grid-row: 2/4;
+    }
+
+    .tekst {
+        grid-row:2/3;
+    }
+    
+    .foto2 {
+        grid-row:2/4;
+        width:60%;
+        justify-self: center;
+    }
+
+    .foto1 {
+        grid-row:3/4;
+    }
+}

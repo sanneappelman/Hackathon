@@ -1,0 +1,306 @@
+body {
+    background-color: #ffe7aa;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: #1d3557;
+    color:white;
+    margin:0;
+    padding:30px;
+    text-align: center;
+    font-size:60px;
+}
+
+ul {
+    list-style-type:none;
+    margin-top:0px;
+    padding:0;
+}
+
+li {
+    float:left;
+   
+}
+
+a {
+    display:block;
+    padding:20px 79px;
+    background-color: #1d3557;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+}
+
+li a:hover {
+    background-color:white;
+    color:#1d3557;
+}
+
+h2 {
+    margin-top:100px;
+    margin-bottom:50px;
+    text-align: center;
+    border: #1d3557 solid 10px;
+    padding:20px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+}
+
+.tekst{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;;
+    margin:30px;
+    margin-top:10px;
+    background-color:#e9c46a;
+    padding-top:5px;
+    padding-left:40px;
+    padding-right:40px;
+    text-align: center;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    background-color: #1d3557;
+    color:white;
+    padding:20px;
+    margin:0;
+    text-align:center;
+}
+
+form {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:45px;
+    background-color: #e9c46a;
+    margin:50px;
+    padding:20px;
+    
+  
+}
+
+
+#naam {
+    margin-left:250px;
+    margin-bottom: 20px;
+    width:200px;
+    padding:12px 20px;
+}
+
+#email {
+    margin-left:240px;
+    margin-bottom: 20px;
+    width:300px;
+    padding:12px 20px;
+}
+
+#plaats {
+    margin-left:120px;
+    margin-bottom: 20px;
+    width:200px;  
+    padding:12px 20px;
+}
+
+#code {
+    margin-left:185px;
+    margin-bottom: 20px;
+    width:100px;
+    padding:12px 20px;
+}
+
+#geboortedatum {
+    margin-left:39px;
+    margin-bottom: 20px;
+    width:200px;
+    padding:12px 20px;
+}
+
+#huiskat{
+    margin-left:120px;
+    margin-bottom: 20px;
+    width:200px;
+}
+
+#coon{
+    margin-left:120px;
+    margin-bottom: 20px;
+    width:200px;
+}
+
+
+#brits{
+    margin-left:120px;
+    margin-bottom: 20px;
+    width:200px;
+}
+
+#ragdoll{
+    margin-left:120px;
+    margin-bottom: 20px;
+    width:200px;
+    
+}
+
+#anders {
+    margin-left:90px;
+    margin-bottom: 20px;
+    width:200px;
+    padding:12px 20px;
+}
+
+#gek {
+    margin-left:150px;
+    margin-bottom: 20px;
+    width:200px;
+    font-size:20px;
+   
+}
+
+#submit {
+    padding:20px 30px;
+    background-color: #1d3557;
+    color:white;
+    border-color: white;
+}
+
+#reset {
+    padding:20px 30px;
+    background-color: #1d3557;
+    color:white;
+    border-color: white;
+}
+
+#submit:hover {
+    background-color: white;
+    color:#1d3557;
+}
+
+#reset:hover{
+    background-color: white;
+    color:#1d3557;
+}
+
+/** Media Queries **/
+
+@media (min-width:1024px){
+    body {
+        margin:30px 160px;
+    }
+    
+    h1 {
+        font-size:40px;
+    }
+    
+    a {
+        display:block;
+        padding:20px;
+        background-color: #1d3557;
+        color: white;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+    }
+    
+    li {
+    width:250px;   
+    text-align: center;
+    }
+
+    form {
+        font-size:15px;
+        width:600px;
+    }
+
+    #naam {
+        margin-left:161px;
+        margin-bottom: 20px;
+        width:200px;
+        padding:12px 20px;
+    }
+    
+    #email {
+        margin-left:160px;
+        margin-bottom: 20px;
+        width:300px;
+        padding:12px 20px;
+    }
+    
+    #plaats {
+        margin-left:120px;
+        margin-bottom: 20px;
+        width:200px;  
+        padding:12px 20px;
+    }
+    
+    #code {
+        margin-left:140px;
+        margin-bottom: 20px;
+        width:100px;
+        padding:12px 20px;
+    }
+    
+    #geboortedatum {
+        margin-left:90px;
+        margin-bottom: 20px;
+        width:200px;
+        padding:12px 20px;
+    }
+    
+    #huiskat{
+        margin-left:0;
+        margin-bottom: 20px;
+        
+    }
+    
+    #coon{
+        margin-left:0px;
+        margin-bottom: 20px;
+        
+    }
+    
+    
+    #brits{
+        margin-left:0px;
+        margin-bottom: 20px;
+        
+    }
+    
+    #ragdoll{
+        margin-left:0px;
+        margin-bottom: 20px; 
+    }
+    
+    #anders {
+        margin-left:90px;
+        margin-bottom: 20px;
+        width:200px;
+        padding:12px 20px;
+    }
+    
+    #gek {
+        margin-left:70px;
+        margin-bottom: 20px;
+        width:200px;
+        font-size:10px; 
+    }
+
+    #noord {
+    margin-left:90px;
+        }
+
+    #oost {
+    margin-left:90px;
+    }
+
+    #zuid {
+    margin-left:90px;
+    }
+
+    #west {
+    margin-left:90px;
+    margin-bottom:20px;
+    }
+}
